@@ -1,34 +1,48 @@
-
 body {
 	display: flex;
 	flex-direction: column;
 	font-family: Helvetica, sans-serif;
+	background-color: #fffff0;
+}
+a {
+	text-decoration: none;
+	color: #f5f5dc;
+	font-style: italic;
 }
 
+/* Head */
 header {
-	background-color: #818589;
-	padding: 10px;
+	background-color: #6F4E37;
+	padding: 5px;
 }
 nav {
-	margin-top: 50px;
+	margin-top: ;
 	display: flex;
 	gap: 20px;
 }
-
-a {
-	text-decoration: none;
-	color: darkgrey;
-
-}
-
 .headone,
 .headtwo {
 	display: flex;
 	justify-content: space-around;
-	align-content: center;
+	align-items: center;
 }
-
+.headtwo {
+	padding: 20px;
+	align-items: flex-start;
+}
 h1 {
 	font-family: "Brush Script Mt";
 	font-size: 50px;
+	color: #f5f5dc;
 }
+
+/* Foot */
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: darkgrey;
+	font-style: italic;
+	height: 60px;
+}
+
